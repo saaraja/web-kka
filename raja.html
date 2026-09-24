@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Website Ku</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #dcdcdc;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .container {
+            width: 720px;
+            margin: 10px auto;
+            background-color: white;
+            padding: 10px;
+        }
+
+        header h1 {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #111;
+        }
+
+        nav {
+            height: 29px;
+            background-color: #13e0e7;
+            display: flex;
+            align-items: stretch;
+            margin-bottom: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: bold;
+
+            background-color: #0a8cf6;
+
+            padding: 8px 14px;
+            display: flex;
+            align-items: center;
+
+            border-right: 1px solid white;
+        }
+
+        nav a:hover {
+            background-color: #013236;
+        }
+
+        nav .nav-space {
+            flex: 1;
+        }
+
+        .banner {
+            width: 100%;
+            height: 393px;
+            object-fit: cover;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .content {
+            display: grid;
+            grid-template-columns: 165px 1fr 165px;
+            gap: 15px;
+        }
+
+        .column {
+            font-size: 12px;
+            line-height: 1.05;
+            color: #111;
+        }
+
+        .column-title {
+            background-color: #0a8cf6;
+            color: white;
+            font-size: 15px;
+            font-weight: bold;
+            text-align: center;
+
+            padding: 7px 5px;
+            margin-bottom: 10px;
+        }
+
+        .left-box {
+            background-color: #f5f5d8;
+            padding-bottom: 10px;
+        }
+
+        .left-box p {
+            padding: 0 8px;
+        }
+
+        .left-box li {
+            list-style:none;
+        }
+
+        .main-content p {
+            margin-bottom: 4px;
+            text-align: justify;
+        }
+
+        .right-content p {
+            text-align: left;
+        }
+
+        footer {
+            margin-top: 18px;
+            height: 25px;
+            background-color: #0a8cf6;
+
+            color: white;
+            font-size: 11px;
+            font-weight: bold;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>Iron Man</h1>
+        </header>
+
+        <nav aria-label="Navigation utama">
+            <a class="active" href="raja.html">Home</a>
+            <a href="profil.html">Profil</a>
+            <a href="kontak.html">Kontak</a>
+            <a href="pesan.html">Pesan</a>
+
+            <div class="nav-space"></div>
+        </nav>
+
+        <img 
+            class="banner"
+            src="images.jpg"
+            alt="Tony Stark"
+        >
+
+        <div class="content">
+
+            <div class="column left-box">
+
+                <div class="column-title">
+                    Daftar Keahlian
+                </div>
+
+                <ul>
+                    <li>Ahli dibidang sains, matematika & teknologi</li>
+                    </li>Ahli dibidang rekaya & bertahan hidup</li>
+                </ul>
+
+            </div>
+
+
+            <div class="column main-content">
+
+                <div class="column-title">
+                    Keterangan Keahlian
+                </div>
+                <h1>konfigurasi IP</h1>
+                <img src="konfigurasi ip.jpg" width="100" height="100">
+                <p>konfigurasi IP adalah proses pengaturan alamat IP pada perangkat jaringan.</p>
+                <h1>crimping rj 45</h1>
+                <img src="rj45.png" width="100" height="100">
+                <p>crimping rj 45 adalah proses memasang konektor rj 45 pada kabel jaringan.</p>
+            </div>
+
+            <div class="column right-content">
+
+                <div class="column-title">
+                    Ekstrakulikuler
+                </div>
+
+                <p>
+                    Saya mengikuti ekstrakurikuler Esports sebagai kegiatan untuk mengembangkan kemampuan bermain game secara kompetitif dan terarah. Dalam kegiatan ini, saya belajar tentang kerja sama tim, komunikasi, strategi, konsentrasi, dan pengambilan keputusan saat bermain.
+
+Selain bermain, kegiatan Esports juga melatih saya untuk disiplin dalam latihan, memahami strategi permainan, mengevaluasi kesalahan, serta bekerja sama dengan anggota tim. Melalui ekstrakurikuler ini, saya mendapatkan pengalaman dalam bermain secara kompetitif sekaligus mengembangkan kemampuan sosial dan teknologi.
+                </p>
+
+            </div>
+
+        </div>
+
+        <footer>
+            ©Copyright 2025
+        </footer>
+
+    </div>
+
+</body>
+</html>
